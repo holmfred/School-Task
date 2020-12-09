@@ -34,11 +34,21 @@ a{
 
 header a{
     color: #fff;
+    padding: 10px;
 }
 
 .cta{
     background-color: #bb0000;
     color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 10px 80px;
+    border-radius: 5px;
+}
+
+.cta-small{
+    padding: 8px 30px;
+    font-size: 0.8px;
 }
 
 .active{
@@ -49,7 +59,7 @@ header a{
     background-color: #e8e8e8;
 }
 
-.featured--products{
+.featured__products{
     background-color: #fbfbfb;
 }
 
